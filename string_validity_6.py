@@ -36,7 +36,7 @@ class validity:
         else:
             return 0
 
-seq=input("Enter the string")
+seq=input("Enter the string\n")
 obj=validity(seq)
 if obj.validate()==0:
     print("Invalid String")
